@@ -18,7 +18,7 @@
     "nome": "Latte",
     "valor": 8.77,
     "descricao": "Perfeito para acompanhar um bom café e tornar sua pausa ainda mais especial.",
-    "img": "./imagens/cardapio/latte.png"
+    "img": "./imagens/cardapio/icedcoffee.png"
   },
   {
     "id": 4,
@@ -88,14 +88,14 @@
     "nome": "Frappuccino",
     "valor": 8.38,
     "descricao": "Feito com ingredientes selecionados, mantendo o padrão artesanal da casa.",
-    "img": "./imagens/cardapio/latte.png"
+    "img": "./imagens/cardapio/icedcoffee.png"
   },
   {
     "id": 14,
     "nome": "Matcha Latte",
     "valor": 11.9,
     "descricao": "Sabor marcante e textura suave, ideal para quem busca qualidade e conforto.",
-    "img": "./imagens/cardapio/latte.png"
+    "img": "./imagens/cardapio/icedcoffee.png"
   },
   {
     "id": 15,

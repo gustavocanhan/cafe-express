@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffe Express</title>
+    <link rel="icon" href="./imagens/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="content-header">
+      <header>
+        <div>
+          <img
+            src="./imagens/logo_transparente.png"
+            alt="Logo de uma café"
+            class="imgLogo"
+            height="150px"
+          />
+        </div>
+        <div id="btnMenu" class="menu-mobile">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navLink" id="sidebarMenu">
+          <div id="btnClose" class="close-sidebar">
+            <i class="fas fa-times"></i>
+          </div>
+          <a href="index.html">Home</a>
+          <a href="cardapio.html">Cardápio</a>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="img-principal">
+        <img src="./imagens/cardapio.png" />
+      </div>
+
+      <div class="container-cardapio">
+        <div>
+          <h1>Cardápio</h1>
+          <p>
+            O cardápio da Café Express foi pensado para agradar todos os
+            paladares, combinando tradição e originalidade em cada item. De
+            cafés clássicos como espresso e cappuccino a opções geladas e
+            especiais, além de deliciosos acompanhamentos como croissants, bolos
+            e tortas, cada produto é preparado com ingredientes selecionados e
+            muito cuidado. Ideal para um momento de pausa, uma conversa ou um
+            bom começo de dia.
+          </p>
+        </div>
+
+        <div class="container-busca">
+          <div class="input-icon">
+            <input
+              type="text"
+              id="inputBuscar"
+              placeholder="Buscar no cardápio..."
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="container-card-cardapio"></div>
+      </div>
+
+      <footer>
+        <div class="container-rodape">
+          <div class="rodape-contato">
+            <strong>Endereço</strong>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Amadeu Caego Monteiro, 397
+            </p>
+            <p>São Paulo - SP</p>
+            <p>05271-250</p>
+          </div>
+          <div class="rodape-contato">
+            <strong>Contato</strong>
+            <p><i class="fa-solid fa-envelope"></i>cafeexpres@email.com</p>
+            <p><i class="fa-solid fa-phone"></i>+55 (11) 3600-0000</p>
+          </div>
+          <div class="rodape-contato">
+            <strong>Redes</strong>
+            <p><i class="fa-brands fa-square-x-twitter"></i>@cafeexpress</p>
+            <p><i class="fa-brands fa-instagram"></i>@cafeexpress</p>
+            <p><i class="fa-brands fa-facebook"></i>@cafeexpress</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

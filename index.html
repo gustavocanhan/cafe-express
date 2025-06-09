@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffe Express</title>
+    <link rel="icon" href="./imagens/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="content-header">
+      <header>
+        <div>
+          <img
+            src="./imagens/logo_transparente.png"
+            alt="Logo de uma café"
+            class="imgLogo"
+            height="150px"
+          />
+        </div>
+        <div id="btnMenu" class="menu-mobile">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navLink" id="sidebarMenu">
+          <div id="btnClose" class="close-sidebar">
+            <i class="fas fa-times"></i>
+          </div>
+          <a href="index.html">Home</a>
+          <a href="cardapio.html">Cardápio</a>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="img-principal">
+        <img src="./imagens/cafeteria_local.png" />
+      </div>
+      <div class="conteudo-inicial">
+        <div class="conteudo-texto">
+          <h1>Café Express</h1>
+          <p>
+            A Café Express é o lugar perfeito para quem busca sabor, aconchego e
+            um bom café. Com um ambiente acolhedor e moderno, nossa cafeteria é
+            ideal para encontros rápidos, pausas no dia e momentos de
+            inspiração.
+          </p>
+          <p>
+            Aqui, cada xícara é preparada com grãos selecionados e muito
+            cuidado. Do espresso ao cappuccino, nossos produtos valorizam a
+            qualidade e o frescor, sempre acompanhados de um atendimento gentil
+            e eficiente.
+          </p>
+        </div>
+
+        <div class="carousel-container">
+          <div class="carousel" id="carousel">
+            <img src="./imagens/fachada.png" alt="Fachada da Cafeteria" />
+            <img src="./imagens/fachada2.png" alt="Fachada da Cafeteria" />
+            <img src="./imagens/fachada3.png" alt="Fachada da Cafeteria" />
+          </div>
+
+          <button class="btn prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="btn next" onclick="moveSlide(-1)">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="conteudo-destaque">
+        <div class="container-bebida-destaque">
+          <img src="./imagens/espresso.png" alt="Espresso" />
+          <strong>Espresso</strong>
+          <p>Café concentrado, servido em dose pequena.</p>
+        </div>
+
+        <div class="container-bebida-destaque">
+          <img src="./imagens/cappuccino.png" alt="Cappuccino" />
+          <strong>Cappuccino</strong>
+          <p>Espresso com leite vaporizado e espuma de leite.</p>
+        </div>
+
+        <div class="container-bebida-destaque">
+          <img src="./imagens/Latte.png" alt="Latte" />
+          <strong>Latte</strong>
+          <p>Espresso com bastante leite vaporizado e camada de espuma.</p>
+        </div>
+
+        <div class="container-bebida-destaque">
+          <img src="./imagens/Mocha.png" alt="Mocha" />
+          <strong>Mocha</strong>
+          <p>Combinação de espresso, chocolate e leite vaporizado.</p>
+        </div>
+
+        <div class="container-bebida-destaque">
+          <img src="./imagens/IcedCoffee.png" alt="Iced Coffee" />
+          <strong>Iced Coffee</strong>
+          <p>
+            Café gelado, batido ou servido com gelo, ideal para dias quentes.
+          </p>
+        </div>
+      </div>
+
+      <div class="conteudo-local">
+        <div class="texto-local">
+          <h2>Local...</h2>
+          <p>
+            A Café Express é um espaço acolhedor que combina tradição e
+            modernidade no coração da cidade. Localizada em uma charmosa esquina
+            com fachada inspirada nos cafés europeus, a cafeteria convida todos
+            que passam a entrarem e apreciarem um bom café em um ambiente
+            tranquilo e convidativo.
+          </p>
+          <p>
+            O interior foi cuidadosamente projetado para proporcionar conforto e
+            bem-estar, com iluminação suave, aroma de café fresco e mobiliário
+            que remete à estética rústica contemporânea. O espaço conta com
+            mesas amplas, balcão com vista para o preparo das bebidas e áreas
+            ideais tanto para conversas descontraídas quanto para momentos de
+            concentração.
+          </p>
+          <p>
+            Mais do que uma cafeteria, a Café Express é um ponto de encontro.
+            Além das bebidas artesanais, oferecemos pães, bolos e doces
+            preparados diariamente. Cada detalhe foi pensado para tornar sua
+            visita uma experiência memorável – seja no café da manhã, na pausa
+            do trabalho ou em um fim de tarde especial.
+          </p>
+        </div>
+
+        <div class="container-cards">
+          <div class="card">
+            <img src="./imagens/local_interno.png" />
+            <h3>Espaço</h3>
+            <p>
+              O interior da Café Express combina conforto e charme. O ambiente
+              conta com poltronas aconchegantes, mesas de madeira, iluminação
+              suave e uma seleção musical tranquila. Prateleiras decoradas,
+              plantas naturais e conexão Wi-Fi tornam o espaço ideal para
+              encontros, leitura ou trabalho com um bom café.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./imagens/funcionario.png" />
+            <h3>Funcionários</h3>
+            <p>
+              Na Café Express, nossos baristas são apaixonados por café e
+              dedicados a oferecer um atendimento acolhedor e personalizado.
+              Cada colaborador passa por treinamentos para garantir qualidade no
+              preparo e simpatia no serviço, criando uma experiência única e
+              calorosa para todos que entram na cafeteria.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./imagens/maquinario.png" />
+            <h3>Máquinas</h3>
+            <p>
+              Na Café Express, utilizamos equipamentos de alta performance, como
+              máquinas de espresso profissionais, moinhos de precisão e
+              vaporizadores de leite, garantindo a extração ideal de cada grão.
+              Esses recursos, aliados à experiência dos nossos baristas,
+              asseguram bebidas consistentes, cremosas e cheias de sabor em cada
+              preparo.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container-rodape">
+          <div class="rodape-contato">
+            <strong>Endereço</strong>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Amadeu Caego Monteiro, 397
+            </p>
+            <p>São Paulo - SP</p>
+            <p>05271-250</p>
+          </div>
+          <div class="rodape-contato">
+            <strong>Contato</strong>
+            <p><i class="fa-solid fa-envelope"></i>cafeexpres@email.com</p>
+            <p><i class="fa-solid fa-phone"></i>+55 (11) 3600-0000</p>
+          </div>
+          <div class="rodape-contato">
+            <strong>Redes</strong>
+            <p><i class="fa-brands fa-square-x-twitter"></i>@cafeexpress</p>
+            <p><i class="fa-brands fa-instagram"></i>@cafeexpress</p>
+            <p><i class="fa-brands fa-facebook"></i>@cafeexpress</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
